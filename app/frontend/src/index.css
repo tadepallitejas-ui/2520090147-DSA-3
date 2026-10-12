@@ -1,0 +1,111 @@
+body {
+  font-family: system-ui, sans-serif;
+  background: #f7f7f9;
+  margin: 0;
+  padding: 2rem;
+}
+
+.app {
+  max-width: 640px;
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 1.5rem;
+}
+
+.subtitle {
+  color: #555;
+  margin-bottom: 1.5rem;
+}
+
+.query-form textarea {
+  width: 100%;
+  padding: 0.75rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  box-sizing: border-box;
+}
+
+.query-form button {
+  margin-top: 0.75rem;
+  padding: 0.6rem 1.2rem;
+  background: #222;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.query-form button:disabled {
+  opacity: 0.6;
+  cursor: default;
+}
+
+.error {
+  color: #c0392b;
+}
+
+.results-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1.5rem;
+}
+
+.results-table th, .results-table td {
+  text-align: left;
+  padding: 0.5rem;
+  border-bottom: 1px solid #ddd;
+}
+
+.empty-state {
+  color: #777;
+  margin-top: 1.5rem;
+}
+
+hr {
+  border: none;
+  border-top: 1px solid #ddd;
+  margin: 2rem 0;
+}
+
+.add-song-form input,
+.add-song-form textarea {
+  display: block;
+  width: 100%;
+  padding: 0.6rem;
+  margin-bottom: 0.6rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  box-sizing: border-box;
+}
+
+.add-song-form button {
+  padding: 0.6rem 1.2rem;
+  background: #222;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.add-song-form button:disabled {
+  opacity: 0.6;
+  cursor: default;
+}
+
+.success {
+  color: #2e7d32;
+}
+
+.song-list {
+  list-style: none;
+  padding: 0;
+}
+
+.song-list li {
+  padding: 0.4rem 0;
+  border-bottom: 1px solid #eee;
+}
